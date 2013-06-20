@@ -2,17 +2,21 @@
 
 ## Update
 
-- added Rake support
+- removed Webrat
 
-- added Webrat support
-
-- added autotest support
+- updated everything to be compatible with newest gem versions and ruby 2.0
 
 ## Overview
 
-I needed a template where all the cool "new" stuff is used, like RSpec2, Bundler and additonal support for multiple applications as well as Ruby 1.9.2 compatibility.
+- Modular Sinatra template
 
-So here it is.
+- RSpec2 support
+
+- Bundler support
+
+- SimpleCov support
+
+- Works with Ruby 2.0
 
 ## Usage
 
@@ -22,7 +26,7 @@ So here it is.
 
 - run `rake` or `rake help` to see available tasks
 
-- run `rake spec` (just for fun)
+- run `rake spec`
 
 - start building your project
 

@@ -1,11 +1,12 @@
-source :rubygems
+source 'https://rubygems.org'
+
+gem 'rake'
 
 gem 'sinatra'
 
 group :test do
     gem 'rspec'
     gem 'rack-test', :require => "rack/test"
-    gem 'webrat'
-    gem 'simplecov', :require => false
+    gem 'simplecov'
 end
 
